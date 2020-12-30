@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The new Vans shoes</title>
+    <link rel="stylesheet" href="styleproduct.css" type="text/css">
+  <style>
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.flex-container {
+      display: flex;
+  }
+  </style>
+  </head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <div id="home">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#newproducts">New products</a>
+        <a class="nav-link" href="#story">The  story of Vans</a>
+        <a class="nav-link" href="#contact">Contact</a>
+
+      </div>
+    </nav>
+    <br>
+    <img id="header-img" src="https://cdn.shopify.com/s/files/1/0082/2729/1236/files/16845832292-vans-shoes-banner-gliks.jpg" alt="vans logo">
+  </header>
+  <br>
+  <br>
+  <section id="story">
+    <h1 id="red">How it all begined</h1>
+    <p id="description">In 1944, Paul Van Doren dropped out of intermediate school in 8th grade at age fourteen when he realized he did not like school.
+       He had a strong passion for horses and found his way to the race track where he earned the nickname "Dutch the Clutch", 
+       and for one dollar he would give the odds of the race. Paul's mother, Rena, did not enjoy the idea of Paul being without a job and 
+       not in school, so she insisted he gets a job at Randy's, a shoe manufacturer. His job entailed sweeping the floors and making shoes. 
+       Paul eventually became the executive vice president of the company at just 34 years old. Randy's became one of the biggest shoe 
+       manufacturers in the US. From Van Doren's quick success in Massachusetts, he was ordered to turn around a failing Randy's factory 
+       in Garden Grove, California, that was losing close to a million dollars each month. Paul and his brother Jim moved their families 
+       and settled in Anaheim to help the factory. After just eight months of being in Garden Grove, the factory was functioning better 
+       than the one in Massachusetts. Three months after trying to save the Garden Grove factory, Paul decided he wanted to start his own 
+       shoe brand.</p>
+       <br>
+       <br>
+  </section>
+
+<br>
+<br>
+<center><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rFDKt7fcC1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br>
+<br>
+<br>
+  <br>
+  <br>
+  <br>
+  <section >
+    <p id="sales">Buy it now with 50% less</p>
+    <div id="newproducts" class="flex-container">
+      
+      <div><img class="imagini" id="proba" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacLo5CN4tbefDSb7WcVONjL-QelMRJa78-Q&usqp=CAU" alt="vans1"><centred><button class="buton">59 $</button></div>
+      <div><img class="imagini" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVDIn4a6Jfzdp6XxzqCeC9ViMnXSsyKOYBg&usqp=CAU" alt="vans2"><button class="buton">69 $</button></div>
+      <div><img class="imagini" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__jYO0k1w8O6eotQ4eWFGX6CpjqX29evm4g&usqp=CAU" alt="vans3"><button class="buton>65 $</button></div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <label>Get our new offers on your email</label>
+    <input id="email" type="email" placeholder="abrahamlincoln@gmail.com" name="email">
+    <input id="submit" type="submit" value="Submit" >
+  </form>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="contact">
+    <p><b>
+      Telephone US: 1-541-754-3010
+      <br>
+      Europe: 001-541-754-3010
+      <br>
+      Email adress: vans@offtheworld.com
+      <br>
+      Physical address: Los Angeles, US, Pico Blvd to Hollister Ave. nr. 123.</b>
+    </p>
+  </section>
+
+  <br>
+<br>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<footer id="footer">© All rights reserved</footer>
+</body>
+</html>

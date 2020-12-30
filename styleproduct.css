@@ -1,0 +1,120 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 50%;
+}
+
+#nav-bar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+#nav-bar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 25px;
+  }
+
+  #nav-bar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  iframe {
+      width: 400px;
+      height: 250px;
+      display: block;
+
+  }
+
+  #story {
+    background-color: black;
+    color: white;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      padding-right: 100px;
+      padding-left: 30px;
+      padding-top: 100px;
+      padding-bottom: 0px;
+      margin-left: 100px;
+      margin-right: 300px;
+  }
+
+  #red {
+      color: rgb(196, 0, 0);
+  }
+
+  #newproducts {
+      display: flex;
+      padding-left: 300px;
+      padding-right: 300px;
+  }
+
+  .imagini {
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgb(0, 0, 0);
+      width: 250px;
+  }
+
+  #sales {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      margin-left: 50px;
+      margin-right: 300px;
+  }
+
+  .buton {
+      display: flex;
+      align-items: center;
+  }
+
+  
+ 
+  form {
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      padding-left: 200px;
+      padding-top: 40px;
+      padding-right: 50px;
+      margin-left: 50px;
+      margin-right: 300px;
+    
+  }
+
+  #email {
+      background-color: rgb(173, 0, 0);
+      color: rgb(0, 0, 0);
+      padding-right: 300px;
+      padding-left: 0px;
+      padding-top: 15px;
+      border-color: black;
+      padding-bottom: 5px;
+      
+  }
+
+  #footer {
+      background-color: black;
+      color: white;
+      padding-left: 10px;
+      padding-top: 30px;
+  }
